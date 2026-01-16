@@ -23,21 +23,17 @@ The system supports **Students, Faculty, Admins (HODs), and VO Officers** with *
 ---
 
 ## Setup
-```bash
 git clone https://github.com/btaashish/Approval-Workflow-Management-System.git
+
 cd Approval-Workflow-Management-System
 npm install
 
-## Create.env:
-
+Create .env:
 SUPABASE_URL=your_supabase_url
 SUPABASE_SERVICE_KEY=your_service_key
 
-
-## Run:
-
+Run:
 npm run dev
 
-## Usage
-
+Usage:
 Students/Faculty raise requests → Admin approves/rejects → VO verifies using OTP.
